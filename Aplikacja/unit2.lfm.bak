@@ -1,0 +1,19 @@
+object Form2: TForm2
+  Left = 1425
+  Height = 240
+  Top = 73
+  Width = 320
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 320
+  LCLVersion = '1.6.0.4'
+  object Label1: TLabel
+    Left = 12
+    Height = 105
+    Top = 31
+    Width = 271
+    Caption = 'Program wyszukuje z podanego łańcucha wszystkie'#13#10'możliwe kombinacje liczb rzymskich i podaje ich'#13#10'odpowiedniki w systemie arabskim. '#13#10#13#10'Program został napisany jako uzupełnienie '#13#10'pierwszego semestru z modułu WDP (21.01.2017) '#13#10'na Politechnice Rzeszowskiej. '
+    ParentColor = False
+    OnClick = Label1Click
+  end
+end
